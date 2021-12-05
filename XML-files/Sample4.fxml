@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="535.0" style="-fx-background-color: #12181B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Deletedetail">
+   <children>
+      <Label layoutX="56.0" layoutY="90.0" prefHeight="32.0" prefWidth="188.0" style="-fx-text-fill: #FFFFFF;" text="Enter the ERP No  :">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="erpget" focusTraversable="false" layoutX="268.0" layoutY="90.0" prefHeight="32.0" prefWidth="207.0" style="-fx-font-family: serif; -fx-font-weight: bold;" />
+      <Button fx:id="delerp" focusTraversable="false" layoutX="322.0" layoutY="181.0" mnemonicParsing="false" onAction="#Deleteerp" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: e12206; -fx-text-fill: #FFFFFF; -fx-background-radius: 10;" text="DELETE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="bckbtn" focusTraversable="false" layoutX="77.0" layoutY="181.0" mnemonicParsing="false" onAction="#getback" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #0074f1; -fx-text-fill: #FFFFFF; -fx-background-radius: 10;" text="BACK">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

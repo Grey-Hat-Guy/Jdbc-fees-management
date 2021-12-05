@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="722.0" style="-fx-background-color: #12181B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateDetail">
+   <children>
+      <Label layoutX="54.0" layoutY="53.0" prefHeight="37.0" prefWidth="183.0" style="-fx-text-fill: #FFFFFF;" text="Update your Details :">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="127.0" prefHeight="37.0" prefWidth="97.0" style="-fx-text-fill: #FFFFFF;" text="Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updatename" layoutX="163.0" layoutY="127.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="403.0" layoutY="127.0" prefHeight="37.0" prefWidth="97.0" style="-fx-text-fill: #FFFFFF;" text="ERP No">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updateerp" layoutX="513.0" layoutY="127.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="190.0" prefHeight="37.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF;" text="Father Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updatefname" layoutX="163.0" layoutY="190.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="403.0" layoutY="190.0" prefHeight="37.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF;" text="Mother Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updatemname" layoutX="513.0" layoutY="190.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="260.0" prefHeight="37.0" prefWidth="123.0" style="-fx-text-fill: #FFFFFF;" text="Mobile Number">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updateno" layoutX="165.0" layoutY="260.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="403.0" layoutY="260.0" prefHeight="37.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF;" text="Year">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updateyear" layoutX="513.0" layoutY="260.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="331.0" prefHeight="37.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF;" text="Fees Type">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updatefeestype" layoutX="165.0" layoutY="331.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="397.0" layoutY="331.0" prefHeight="37.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF;" text="Fees ">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updatefees" layoutX="513.0" layoutY="331.0" prefHeight="37.0" prefWidth="183.0" style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="okbtn" layoutX="521.0" layoutY="53.0" mnemonicParsing="false" onAction="#okbutton" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: #00f200; -fx-background-radius: 10; -fx-text-fill: #ffffff;" text="OK">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backbtn" layoutX="136.0" layoutY="409.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: #0074f1; -fx-text-fill: #ffffff; -fx-background-radius: 10;" text="BACK">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="updatebtn" layoutX="475.0" layoutY="409.0" mnemonicParsing="false" onAction="#updatebutton" prefHeight="37.0" prefWidth="105.0" style="-fx-background-color: #f79604; -fx-text-fill: #ffffff; -fx-background-radius: 10;" text="UPDATE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="entererp" layoutX="255.0" layoutY="53.0" prefHeight="37.0" prefWidth="183.0" promptText="Enter ERP No..." style="-fx-font-family: serif; -fx-font-weight: bold;" styleClass="txtfields">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

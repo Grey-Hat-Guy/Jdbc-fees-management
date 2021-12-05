@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="505.0" style="-fx-background-color: #050404;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Sample2Controller">
+   <children>
+      <Button fx:id="btnadd" layoutX="177.0" layoutY="61.0" mnemonicParsing="false" onAction="#adddetails" prefHeight="50.0" prefWidth="151.0" style="-fx-background-radius: 10; -fx-background-color: #233fdd; -fx-text-fill: #ffffff;" text="Add">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnview" layoutX="177.0" layoutY="148.0" mnemonicParsing="false" onAction="#viewdetails" prefHeight="50.0" prefWidth="151.0" style="-fx-background-radius: 10; -fx-background-color: #233fdd; -fx-text-fill: #ffffff;" text="View">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnupdate" layoutX="177.0" layoutY="235.0" mnemonicParsing="false" onAction="#updatedetails" prefHeight="50.0" prefWidth="151.0" style="-fx-background-radius: 10; -fx-background-color: #233fdd; -fx-text-fill: #ffffff;" text="Update">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btndel" layoutX="177.0" layoutY="321.0" mnemonicParsing="false" onAction="#deletedetails" prefHeight="50.0" prefWidth="151.0" style="-fx-background-radius: 10; -fx-background-color: #233fdd; -fx-text-fill: #ffffff;" text="Delete">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
